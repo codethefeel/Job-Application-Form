@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Project2/style.css" />
+    <title>Job Application Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply-box">
+        <h1 class="title">
+          Job Application <span class="title-small">(Web)</span>
+        </h1>
+        <form action="">
+          <div class="form-conatainer">
+            <div class="form-item">
+              <label for="fname">First Name </label>
+              <input type="text" name="fname" id="fname" />
+            </div>
+            <div class="form-item">
+              <label for="lname">Last Name </label>
+              <input type="text" name="lname" id="lname" />
+            </div>
+            <div class="form-item">
+              <label for="email">Email </label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="form-item">
+              <label for="job-role">Job Role </label>
+              <select name="job-role" id="job-role">
+                <option value="front-end">Frontend</option>
+                <option value="back-end">Backend</option>
+                <option value="full-stack">Full-stack</option>
+                <option value="ui-ux">UI/UX Designer</option>
+              </select>
+            </div>
+            <div class="form-item textarea-container">
+              <label for="address">Address </label>
+              <textarea name="address" id="address" cols="50" rows="4">
+Address
+</textarea
+              >
+            </div>
+            <div class="form-item">
+              <label for="city">City </label>
+              <input type="text" name="city" id="city" />
+            </div>
+            <div class="form-item">
+              <label for="pincode">Pin Code </label>
+              <input type="number" name="pincode" id="pincode" />
+            </div>
+            <div class="form-item">
+              <label for="date">Date of Joining </label>
+              <input type="date" name="date" id="date" />
+            </div>
+            <div class="form-item">
+              <label for="cv">Upload Your CV </label>
+              <input type="file" name="cv" id="cv" />
+            </div>
+          </div>
+          <div class="btn-container">
+            <input class="btn" type="button" value="Apply Now" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
